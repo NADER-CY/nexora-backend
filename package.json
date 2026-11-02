@@ -16,6 +16,6 @@
   "devDependencies": {
     "@asyncapi/parser": "^3.6.6",
     "@stoplight/spectral-cli": "^6.17.0",
-    "markdownlint-cli2": "^0.23.3"
+    "markdownlint-cli2": "^0.24.0"
   }
 }
