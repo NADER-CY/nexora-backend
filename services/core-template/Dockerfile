@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.7
-FROM rust:1.99-slim-bookworm AS build
+FROM rust:1.100-slim-bookworm AS build
 # hadolint ignore=DL3008
 RUN apt-get update \
     && apt-get install -y --no-install-recommends pkg-config cmake perl build-essential \
